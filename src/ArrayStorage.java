@@ -2,7 +2,7 @@
  * Array based storage for Resumes
  */
 public class ArrayStorage {
-    final int length = 3;
+    final int length = 10000;
 
     Resume[] storage = new Resume[length];
     int size = 0;
